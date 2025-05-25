@@ -5,7 +5,7 @@
 
 /* 
 @author Tomas Sedlak
-@last-modified 2025/02/18
+@last-modified 2025/05/25
 */
 body {
     margin: 0;
@@ -306,6 +306,13 @@ footer hr {
     height: 0.1vh;
     margin-bottom: .125rem;
     margin-top: 3.125;
+}
+.coder {
+    text-decoration: none;
+    color: lightgray;
+}
+.coder:hover {
+    color: rgb(29, 144, 252);
 }
 .hamburger{
     display: none;
